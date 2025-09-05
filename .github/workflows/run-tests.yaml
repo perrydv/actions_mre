@@ -24,7 +24,7 @@ jobs:
       - name: Install R dependencies
         run: |
           Rscript -e 'install.packages("remotes")'
-          Rscript -e 'remotes::install_deps("callr", dependencies = TRUE)'
+          Rscript -e 'remotes::install_deps("actionsmre", dependencies = TRUE)'
 
       - name: Show useful info
         run: |
