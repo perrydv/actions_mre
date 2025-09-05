@@ -15,3 +15,8 @@ test_that("calling R from callr works", {
   file.remove("say_cheese.Rout")
   expect_true(sum(grepl("\\[1\\] \"cheese\"", out))==1)
 })
+
+test_that("installing and using toyPackage works", {
+  install_toyPackage()
+  expect_equal(toyPackage::hello(), 123)
+})

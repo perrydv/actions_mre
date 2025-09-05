@@ -25,7 +25,6 @@ jobs:
         run: |
           Rscript -e 'install.packages("remotes")'
           Rscript -e 'remotes::install_deps("actionsmre", dependencies = TRUE)'
-          Rscript -e 'install.packages("testthat")'
 
       - name: Show useful info
         run: |

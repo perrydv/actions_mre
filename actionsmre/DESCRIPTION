@@ -6,8 +6,8 @@ Author: Perry de Valpine
 Maintainer: Perry de Valpine <pdevalpine@berkeley.edu>
 Description: This will either help me understand my mistake or
              provide a minimal example for filing an issue.
-License: GPL 3.0
+License: GPL-3
 Suggests: 
-    callr
+    callr, withr, devtools, testthat
 Encoding: UTF-8
 LazyData: true

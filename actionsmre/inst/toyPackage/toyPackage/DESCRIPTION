@@ -1,0 +1,9 @@
+Package: toyPackage
+Type: Package
+Title: toyPackage is for local installation during testing of actionsmre
+Version: 1.0
+Date: 2025-09-05
+Author: generated
+Maintainer: toy package <toy@package.com>
+License: GPL-3
+Description: Nothing
