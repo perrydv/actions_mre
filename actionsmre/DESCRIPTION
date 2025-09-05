@@ -1,0 +1,13 @@
+Package: actionsmre
+Type: Package
+Title: Minimal Reproducible Example For callr::rcmd Problem With setup-r in GitHub Actions
+Version: 0.1.0
+Author: Perry de Valpine
+Maintainer: Perry de Valpine <pdevalpine@berkeley.edu>
+Description: This will either help me understand my mistake or
+             provide a minimal example for filing an issue.
+License: GPL 3.0
+Suggests: 
+    callr
+Encoding: UTF-8
+LazyData: true

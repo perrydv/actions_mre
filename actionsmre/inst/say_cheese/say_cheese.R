@@ -1,0 +1,2 @@
+print("cheese")
+q('no')
