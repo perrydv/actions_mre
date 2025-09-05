@@ -4,7 +4,7 @@ test_that("calling R manually works", {
   call_R_manually(infile)
   out <- readLines("say_cheese.Rout")
   file.remove("say_cheese.Rout")
-  expect_identical(out[21], "[1] \"cheese\"")
+  expect_true(sum(grepl("\\[1\\] \"cheese\"", out))==1)
 })
 
 test_that("calling R from callr works", {
@@ -13,5 +13,5 @@ test_that("calling R from callr works", {
   call_R_via_callr(infile)
   out <- readLines("say_cheese.Rout")
   file.remove("say_cheese.Rout")
-  expect_identical(out[21], "[1] \"cheese\"")
+  expect_true(sum(grepl("\\[1\\] \"cheese\"", out))==1)
 })
